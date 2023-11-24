@@ -12,4 +12,4 @@ RUN pip install .
 
 COPY ./frontend/dist ./ui
 
-CMD exec uvicorn app.server:app --host 0.0.0.0 --port $PORT
+CMD exec uvicorn app.server:app --host 0.0.0.0 --port 8100
